@@ -1,17 +1,20 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
     /* Typography */
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Amaranth', sans-serif;
     font-size: 20px;
+
   
     /* Visual */
-    background-image: url("./");
+    background-image: url('./Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   html {
     /* Positioning */
     position: relative;
-  
+
     /* Box-model */
     min-height: 100%;
   }
@@ -21,33 +24,38 @@ body {
     margin: 80px 0;
   }
   
-  /* create styles for use for all white main boxes */
+  /* create styles for use in all white main boxes */
   .block {
     background-color: #fff;
-  
     padding: 30px;
-    margin-bottom: 30px;
+    width: 75%;
+    margin-bottom: 20px;
   }
   
   .block-header {
     /* Typography */
     color: #4aaaa5;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lobster Two', cursive;
     font-weight: bold;
   }
   
   /* NAV START */
   #logo {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
   
     /* Typography */
     font-size: 30px;
-    font-weight: bold;
-    color: #fff;
+    color: #4aaaa5;
   
     /* Visual */
-    background: #4aaaa5;
+    background: #f8f9fa;
   }
+
+  #logo:hover {
+    background-image: url('./Background.jpg');
+  }
+
   
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
@@ -69,23 +77,18 @@ body {
   
   
   /* CONNECT W/ ME CSS */
-  .connect-header {
     /* Typography */
-    font-size: 25px;
+  .connectheader {
+    font-family: 'Lobster Two', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color:#4aaaa5;
   }
   
-  .connect-photo {
     /* Box-model */
-    width: 55px;
-    height: 55px;
-  }
-  
-  #images {
-    /* Box-model */
-    padding-top: 15px;
-  
-    /* Typography */
-    text-align: center;
+  .connectphoto {
+    width: 75%;
+    padding: 5%;
   }
   /* END CONNECT W/ ME */
   
@@ -125,10 +128,11 @@ body {
   
   /* --- PAGE-SPECIFIC STYLES --- */
   /* ABOUT-ME PAGE */
+
   .about-me-header {
     /* Positioning */
     margin-bottom: 33px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lobster Two', sans-serif;
   
     /* Typography */
     font-size: 32px;
@@ -144,22 +148,22 @@ body {
     width: 200px;
     margin: 0 20px 10px 0;
   }
+
   /* END ABOUT-ME PAGE */
   
   
   /* PORTFOLIO PAGE */
-  .port-image {
-    margin: 20px auto;
+  #sustainableStems {
+    border: 2px solid black;
+    height: 450px;
   }
 
-  #sustainablestems {
-    border: solid;
-    border-color: black;
-    border-width: 1px;
+  #responsivePortfolio {
+    border: solid 2px black;
   }
 
-  #responsiveportfolio {
-
+  .port-image-description {
+    text-align: center;
   }
 
   /* END PORTFOLIO PAGE */
