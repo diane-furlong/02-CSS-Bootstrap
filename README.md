@@ -9,7 +9,7 @@ This project was a CWRU Coding Bootcamp homework assignment. This goal of this a
 The purpose of this homework assignment is to practice using Bootstrap's CSS Framework to create a page. At a minimum, the page should have a navbar, a responsive layout, and responsive images. Another goal of this assignment is to practice using the grid system to easily create an attractive and responsive layout. 
 
 
-Deployed application link: (https://diane-furlong.github.io/RefactorHoriseon/)
+Deployed application link: (https://diane-furlong.github.io/Responsive-Portfolio/)
 
 
 ## Table of Contents
