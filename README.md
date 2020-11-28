@@ -18,8 +18,8 @@ Deployed application link: (https://diane-furlong.github.io/Responsive-Portfolio
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 
 ## Installation
