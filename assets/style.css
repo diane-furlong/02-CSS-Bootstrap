@@ -163,15 +163,27 @@ body {
   
   /* PORTFOLIO PAGE */
   #sustainableStems {
+    display: block;
+    margin: auto;
     border: 2px solid black;
-    margin: 2px;
-    width: 95%;
+    width: 90%;
+    height: 90%;
   }
 
   #responsivePortfolio {
-    border: solid 2px black;
-    margin: 2px;
-    width: 95%;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    width: 90%;
+    height: 97%:
+  }
+
+  #port-image-3 {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    width: 90%;
+    height: 97%;
   }
 
   .port-image-description {
