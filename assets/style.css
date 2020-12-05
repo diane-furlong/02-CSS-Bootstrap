@@ -99,6 +99,13 @@ body {
     display: block;
     margin: auto;
   }
+
+  .connectphoto:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+  }
+
   /* END CONNECT W/ ME */
   
   
@@ -175,7 +182,7 @@ body {
     margin: auto;
     border: 2px solid black;
     width: 90%;
-    height: 97%:
+    height: 98%:
   }
 
   #port-image-3 {
@@ -184,6 +191,10 @@ body {
     border: 2px solid black;
     width: 90%;
     height: 97%;
+  }
+
+  .portcaption {
+    text-align: center;
   }
 
   .port-image-description {
